@@ -55,16 +55,41 @@ body {
   }
   .testimonial_section {
     padding: 1.5rem;
+    background-image: url(../images/bg-pattern-bottom-mobile.svg);
+    background-repeat: no-repeat;
   }
-  .testimonial_section div {
+  .testimonial_section .testimonial {
     background-color: var(--Very-Dark-Magenta);
     border-radius: 0.5rem;
     padding: 1.5rem;
 
     font-weight: normal;
-    margin: 1rem;
+    margin: 1rem 0rem;
     p {
       color: white;
     }
+  }
+  .profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    /* padding: 0rem; */
+    /* justify-content: space-between; */
+  }
+  .profile span {
+    margin-left: 1rem;
+  }
+  .profile img {
+    border-radius: 100%;
+    width: 30px;
+  }
+  .profile h5 {
+    margin: 0rem;
+    color: white;
+  }
+  .profile h6 {
+    margin: 0rem;
+    font-weight: normal;
+    color: var(--Soft-Pink);
   }
 }
