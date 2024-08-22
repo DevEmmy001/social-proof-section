@@ -93,3 +93,56 @@ body {
     color: var(--Soft-Pink);
   }
 }
+@media screen and (min-width: 769px) {
+  .desktop_advancement {
+    display: flex;
+    background-image: url(../images/bg-pattern-top-mobile.svg);
+    background-repeat: no-repeat;
+    padding: 5rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header {
+    /* padding: 1.5rem; */
+    /* height: fit-content; */
+    width: 30%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* text-align: center; */
+    color: var(--Very-Dark-Magenta);
+  }
+  .review_section {
+    /* padding: 1.5rem; */
+    width: 40%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+  .review_section div {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0.5rem 0rem;
+    padding: 1rem;
+    align-items: center;
+    width: 80%;
+    border-radius: 0.5rem;
+    background-color: hsl(303deg 10% 53% / 35%);
+  }
+  .review_section img {
+    width: 15px;
+  }
+  .review_section span {
+    display: flex;
+
+    width: 30%;
+    justify-content: space-between;
+    /* margin: 0.5rem auto; */
+  }
+  .center {
+    align-self: center;
+  }
+  .right {
+    align-self: self-end;
+  }
+}
