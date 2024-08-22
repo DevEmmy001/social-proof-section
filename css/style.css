@@ -53,4 +53,18 @@ body {
     justify-content: space-between;
     margin: 0.5rem auto;
   }
+  .testimonial_section {
+    padding: 1.5rem;
+  }
+  .testimonial_section div {
+    background-color: var(--Very-Dark-Magenta);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+
+    font-weight: normal;
+    margin: 1rem;
+    p {
+      color: white;
+    }
+  }
 }
